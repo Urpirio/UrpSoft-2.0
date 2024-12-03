@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+}
+.header-section1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+}
+.header-section1-div{
+    margin-left: 10px;
+}
+.header-section1-div img{
+
+}
+.header-section1-div2{
+    margin-right: 10px;
+}
+.header-section1-div2 a button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-section1-div2 a button img{
+    height: 20px;
+    margin-right: 2px;
+}
+
+
+.main-section1{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 12cm;
+    background-color: antiquewhite;
+}
+.main-section1-div1{
+    width: 10cm;
+    height: 10cm;
+    border: 1px solid black;
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+.main-section1-div1-div1{
+    display: flex;
+    flex-direction: column;
+}
+.main-section1-div1-div3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-section2{
+    height: 12cm;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: azure;
+}
+.main-section2-div1 img{
+    height: 400px;
+}
+.main-section2-div2{
+    width: 10cm;
+}
+.main-section3{
+    height: 12cm;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: blanchedalmond;
+}
+.main-section4{
+    height: 8cm;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: beige;
+}
+.main-section4-article1{
+   width: 12cm;
+}
+.main-section4-form1{
+    width: 12cm;
+}
+.main-section4-form1-div1{
+    display: flex;
+    flex-direction: row;
+
+}
+.main-section4-form1-div1 div{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.main-section4-form1-div2{
+    display:flex ;
+    flex-direction: row;
+}
+.main-section4-form1-div2 div{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+.BtnSumit{
+    margin-top: 20px;
+}
+footer{
+    height: 8cm;
+}
+.footer-section1{
+    height: 6cm;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: burlywood;
+}
+.footer-section2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
