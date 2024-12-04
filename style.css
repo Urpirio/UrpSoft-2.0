@@ -1,25 +1,42 @@
 body{
     margin: 0;
+    background-color: gray;
 }
 .header-section1{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid black;
+    border: 1px solid white;
+    background-color: white;
+    transform-style: preserve-3d;
+    box-shadow: 1px 1px 1px 1px white;
+
 }
 .header-section1-div{
     margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .header-section1-div img{
-
+    height: 50px;
+    border-radius: 5px;
 }
 .header-section1-div2{
     margin-right: 10px;
+}
+.header-section1-div2 a{
+    text-decoration: none;
 }
 .header-section1-div2 a button{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 1cm;
+    width: 6cm;
+    border-radius: 40px;
+    background-color: green;
+    color: white;
 }
 .header-section1-div2 a button img{
     height: 20px;
@@ -29,40 +46,69 @@ body{
 
 .main-section1{
     display: flex;
-    justify-content: left;
+    justify-content: flex-end;
     align-items: center;
-    height: 12cm;
-    background-color: antiquewhite;
+    height: 14cm;
+    background-image: url(https://www.tuproyectodevida.pe/wp-content/uploads/2020/06/%C2%BFCu%C3%A1les-son-las-salidas-laborales-de-un-ingeniero-de-sistemas-1200x628.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 .main-section1-div1{
-    width: 10cm;
-    height: 10cm;
-    border: 1px solid black;
-    margin-left: 50px;
+    width: 12cm;
+    height: 12cm;
+    border: 1px solid rgb(154, 154, 154);
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px black ;
     display: flex;
-    justify-content: center;
+    margin-right: 50px;
     align-items: center;
     flex-direction: column;
-    padding-left: 10px;
-    padding-right: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
 }
+.main-section1-div1 div{
+    text-align: left;
+}
+.main-section1-div1 div p{
+    font-size: 20px;
+
+}
+
 
 .main-section1-div1-div1{
     display: flex;
     flex-direction: column;
 }
+.main-section1-div1-div1 h1{
+    font-size: 30px;
+}
+.main-section1-div1-div1 h1 span{
+    color: green;
+}
 .main-section1-div1-div3{
     display: flex;
-    justify-content: center;
     align-items: center;
 }
+.main-section1-div1-div3 a{
+    text-align: left;
+}
+.main-section1-div1-div3 a button{
+    height: 1.5cm;
+    width: 10cm;
+    margin-top: 1.5cm;
+    margin-right: 75px;
+    background-color: black;
+    color: white;
+}
+
 .main-section2{
-    height: 12cm;
+    height: 16cm;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
     align-items: center;
-    background-color: azure;
+    background-color: white;
 }
 .main-section2-div1 img{
     height: 400px;
@@ -70,13 +116,70 @@ body{
 .main-section2-div2{
     width: 10cm;
 }
+.main-section2-div2 h1{
+    color: green;
+    font-size: 35px;
+}
+.main-section2-div2 div p{
+    font-size: 18px;
+}
+.main-section2-div2 div a button{
+    height: 1.2cm;
+    width: 6cm;
+    background-color: black;
+    color: white;
+}
 .main-section3{
-    height: 12cm;
+    height: 16cm;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background-color: blanchedalmond;
+    background-color: white;
+}
+
+.main-section3-article1{
+    width: 16cm;
+}
+
+.main-section3-article1-div1 h1{
+    font-size: 35px;
+}
+.li-1 h2{
+    display: flex;
+    align-items: center;
+}
+.li-1 h2 img{
+    height: 20px;
+}
+.li-1 p{
+    font-size: 20px;
+}
+.li-2 h2 img{
+    height: 20px;
+}
+.li-2 h2{
+    display: flex;
+    align-items: center;
+}
+.li-2 p{
+    font-size: 20px;
+}
+.li-3 h2 img{
+    height: 20px;
+}
+.li-3 h2{
+    display: flex;
+    align-items: center;
+}
+.li-3 p{
+    font-size: 20px;
+}
+.main-section3-article1-div3 a button{
+    height: 1.2cm;
+    width: 6cm;
+    color: white;
+    background-color: black;
 }
 .main-section4{
     height: 8cm;
@@ -87,8 +190,9 @@ body{
     background-color: beige;
 }
 .main-section4-article1{
-   width: 12cm;
-}
+    width: 12cm;
+ 
+ }
 .main-section4-form1{
     width: 12cm;
 }
