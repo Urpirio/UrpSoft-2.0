@@ -1,11 +1,18 @@
 body{
     margin: 0;
     background-color: gray;
+    font-family: "Poppins", sans-serif;
 }
+    header{
+        top: 0;
+        position: sticky;
+        z-index: 3;
+    }
 .header-section1{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     border: 1px solid white;
     background-color: white;
     transform-style: preserve-3d;
@@ -42,30 +49,45 @@ body{
     height: 20px;
     margin-right: 2px;
 }
+.order-div{
+    display: flex;
+    margin: 0;
+    justify-content: left;
+    align-items: center;
+
+}
 
 
+.main-section-background{
+    background-color: #2D2D2D;
+    width: 15.2cm;
+}
 .main-section1{
     display: flex;
-    justify-content: flex-end;
     align-items: center;
-    height: 14cm;
+    height: 16.33cm;
+    width: 52.5cm;
     background-image: url(https://www.tuproyectodevida.pe/wp-content/uploads/2020/06/%C2%BFCu%C3%A1les-son-las-salidas-laborales-de-un-ingeniero-de-sistemas-1200x628.jpg);
     background-repeat: no-repeat;
     background-size: contain;
+    z-index: 1;
 }
 .main-section1-div1{
     width: 12cm;
     height: 12cm;
-    border: 1px solid rgb(154, 154, 154);
-    border-radius: 5px;
-    box-shadow: 1px 1px 1px 1px black ;
+    border: none;
+    border-radius: 0px;
     display: flex;
-    margin-right: 50px;
     align-items: center;
     flex-direction: column;
     padding-left: 20px;
     padding-right: 20px;
     background-color: white;
+    position: absolute;
+    z-index: 2;
+    margin-left: 4cm;
+   
+
 }
 .main-section1-div1 div{
     text-align: left;
@@ -96,7 +118,7 @@ body{
 .main-section1-div1-div3 a button{
     height: 1.5cm;
     width: 10cm;
-    margin-top: 1.5cm;
+    margin-top: 0.5cm;
     margin-right: 75px;
     background-color: black;
     color: white;
@@ -109,12 +131,13 @@ body{
     justify-content: space-evenly;
     align-items: center;
     background-color: white;
+    flex-wrap: wrap;
 }
 .main-section2-div1 img{
     height: 400px;
 }
 .main-section2-div2{
-    width: 10cm;
+    width: 14cm;
 }
 .main-section2-div2 h1{
     color: green;
@@ -130,11 +153,13 @@ body{
     color: white;
 }
 .main-section3{
-    height: 16cm;
+    height: 20cm;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
+    z-index: 1;
     background-color: white;
 }
 
@@ -151,12 +176,14 @@ body{
 }
 .li-1 h2 img{
     height: 20px;
+    margin-right: 5px;
 }
 .li-1 p{
     font-size: 20px;
 }
 .li-2 h2 img{
     height: 20px;
+    margin-right: 5px;
 }
 .li-2 h2{
     display: flex;
@@ -167,6 +194,7 @@ body{
 }
 .li-3 h2 img{
     height: 20px;
+    margin-right: 5px;
 }
 .li-3 h2{
     display: flex;
@@ -182,19 +210,27 @@ body{
     background-color: black;
 }
 .main-section4{
-    height: 8cm;
+    height: 14cm;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background-color: beige;
+    background-color: white;
+    flex-wrap: wrap;
 }
 .main-section4-article1{
     width: 12cm;
  
  }
+ .main-section4-article1-div1 h1{
+    font-size: 35px;
+ }
+ .main-section4-article1-div2 p{
+    font-size: 20px;
+ }
 .main-section4-form1{
     width: 12cm;
+    
 }
 .main-section4-form1-div1{
     display: flex;
@@ -206,7 +242,27 @@ body{
     flex-direction: column;
     margin-right: 10px;
 }
-
+.main-section4-form1-div1 div label span{
+    color: red;
+}
+.textboxs{
+    height: 1.2cm;
+    width: 6cm;
+    border-radius: 20px;
+    border: 1px solid green;
+    padding-left: 15px;
+}
+.BtnSumit button{
+    height: 1.2cm;
+    width: 12.5cm;
+    border-radius: 20px;
+    border: 1px solid green;
+    background-color: green;
+    color: white;
+}
+.main-section4-form1-div2 div label span{
+    color: red;
+}
 .main-section4-form1-div2{
     display:flex ;
     flex-direction: row;
@@ -216,6 +272,7 @@ body{
     flex-direction: column;
     margin-right: 10px;
 }
+
 .BtnSumit{
     margin-top: 20px;
 }
@@ -228,11 +285,175 @@ footer{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background-color: burlywood;
+    background-color: #2D2D2D;
+    color: white;
+}
+.footer-section1-div1 img{
+    height: 100px;
+    border-radius: 10px;
+}
+.footer-section1-div2-div2 div{
+    align-items: center;
+}
+.footer-section1-div2-div2 div img{
+    height: 30px;
+}
+.footer-section1-div2-div2 div a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
 }
 .footer-section2{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-content: center;
+    background: #2D2D2D;
+    border-top: 2px solid white;
+    color: white;
+}
+@media (max-width: 667px){
+    
+    .header-section1-div2{
+        display: none;
+    }
+    .main-section-background{
+        display: none;
+    }
+    .main-section1{
+        display: none;
+        align-items: center;
+        height: 16.33cm;
+        background-image: url();
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .main-section1-div1{
+        
+        z-index: 1;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 14cm;
+        width: 10cm;
+        margin-left: 0;
+
+    }
+    
+   .main-section1-div1-div3 a button{
+    width: 6cm;
+    margin-right: 0px;
+    margin-bottom: 0.7cm;
+   }
+    
+    .main-section2{
+        height: 30cm;
+        justify-content: center;
+        align-content: center;
+       
+    }
+    .main-section2-div1 img{
+        height: 200px;
+    }
+    .main-section2-div2 h1{
+        color: green;
+        font-size: 35px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .main-section2-div2 div p{
+        
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .main-section2-div2-div1 h2{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .main-section2-div2-div2 h2{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+   .main-section2-div2-div3{
+    justify-content: center;
+    display: flex;
+   }
+   .main-section3{
+    height: 33cm;
+   
+}
+.main-section3-article1{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.main-section3-article1-div3{
+    display: flex;
+    justify-content: center;
+}
+.main-section3-article2-div1 img{
+    height: 200px;
+}
+.main-section4{
+    height: 22cm;
+}
+.main-section4-article1{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: -3cm;
+}
+.main-section4-form1 div{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.BtnSumit button{
+    width: 5cm;
+}
+.footer-section1{
+    flex-wrap: wrap;
+    height: 12cm;
+}
+.footer-section1-div1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.4cm;
+}
+.footer-section1-div1 img{
+    height: 70px;
+    width: 70px;
+    
+}
+.footer-section1-div1 p{
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.footer-section1-div2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-section1-div2-div2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-section2{
+    height: 4cm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-section2 h1{
+    
+    text-align: center;
+}
+
+
 }
