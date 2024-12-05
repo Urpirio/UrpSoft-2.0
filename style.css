@@ -461,3 +461,158 @@ footer{
 
 
 }
+@media (max-height: 667px) {
+
+    body{
+        background-color: white;
+    }
+    
+    .header-section1-div2{
+        display: none;
+    }
+    .main-section-background{
+        display: none;
+    }
+    .main-section1{
+        display: none;
+        align-items: center;
+        height: 16.33cm;
+        background-image: url();
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .main-section1-div1{
+        margin-top: -1cm;
+        z-index: 1;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 14cm;
+        width: 16cm;
+        margin-left: 0;
+
+    }
+    
+   .main-section1-div1-div3 a button{
+    width: 6cm;
+    margin-right: 0px;
+
+   }
+    
+    .main-section2{
+        height: 35cm;
+        justify-content: center;
+        align-content: center;
+        margin-bottom: -2cm;
+       
+    }
+    .main-section2-div1 img{
+        height: 400px;
+    }
+    .main-section2-div2 h1{
+        color: green;
+        font-size: 35px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .main-section2-div2 div p{
+        
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .main-section2-div2-div1 h2{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .main-section2-div2-div2 h2{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+   .main-section2-div2-div3{
+    justify-content: center;
+    display: flex;
+   }
+   .main-section3{
+    margin-top: -3cm;
+    height: 33cm;
+    margin-bottom: 0cm;
+   
+}
+.main-section3-article1{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.main-section3-article1-div3{
+    display: flex;
+    justify-content: center;
+}
+.main-section3-article2-div1 img{
+    height: 400px;
+}
+.main-section4{
+    margin-top: -5.2cm;
+    height: 30cm;
+}
+.main-section4-article1{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: -3cm;
+}
+.main-section4-form1{
+    margin-top: -6cm;
+}
+.main-section4-form1 div{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.BtnSumit button{
+    width: 5cm;
+}
+.footer-section1{
+    flex-wrap: wrap;
+    height: 12cm;
+}
+.footer-section1-div1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.4cm;
+}
+.footer-section1-div1 img{
+    height: 70px;
+    width: 70px;
+    
+}
+.footer-section1-div1 p{
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.footer-section1-div2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-section1-div2-div2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-section2{
+    height: 4cm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-section2 h1{
+    
+    text-align: center;
+}
+    
+}
