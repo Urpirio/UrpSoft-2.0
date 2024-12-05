@@ -344,11 +344,10 @@ footer{
    .main-section1-div1-div3 a button{
     width: 6cm;
     margin-right: 0px;
-    margin-bottom: 0.7cm;
    }
     
     .main-section2{
-        height: 30cm;
+        height: 35cm;
         justify-content: center;
         align-content: center;
        
@@ -395,7 +394,7 @@ footer{
     height: 200px;
 }
 .main-section4{
-    height: 22cm;
+    height: 28cm;
 }
 .main-section4-article1{
     padding-left: 20px;
