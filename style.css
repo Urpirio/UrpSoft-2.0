@@ -70,7 +70,7 @@ body{
     width: 100%;
     background-image: url(https://www.tuproyectodevida.pe/wp-content/uploads/2020/06/%C2%BFCu%C3%A1les-son-las-salidas-laborales-de-un-ingeniero-de-sistemas-1200x628.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     z-index: 1;
 }
 .main-section1-div1{
