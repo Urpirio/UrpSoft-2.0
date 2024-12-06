@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background-color: gray;
+    background-color: rgb(21, 21, 21);
     font-family: "Poppins", sans-serif;
 }
     header{
@@ -66,8 +66,8 @@ body{
 .main-section1{
     display: flex;
     align-items: center;
-    height: 16.33cm;
-    width: 52.5cm;
+    height: 15.33cm;
+    width: 100%;
     background-image: url(https://www.tuproyectodevida.pe/wp-content/uploads/2020/06/%C2%BFCu%C3%A1les-son-las-salidas-laborales-de-un-ingeniero-de-sistemas-1200x628.jpg);
     background-repeat: no-repeat;
     background-size: contain;
@@ -313,7 +313,7 @@ footer{
     border-top: 2px solid white;
     color: white;
 }
-@media (max-width: 667px){
+@media (max-width: 667px) { 
     body{
         background-color: white;
     }
@@ -357,7 +357,7 @@ footer{
        
     }
     .main-section2-div1 img{
-        height: 200px;
+        height: 250px;
     }
     .main-section2-div2 h1{
         color: green;
@@ -396,7 +396,7 @@ footer{
     justify-content: center;
 }
 .main-section3-article2-div1 img{
-    height: 200px;
+    height: 250px;
 }
 .main-section4{
     height: 30cm;
@@ -461,7 +461,7 @@ footer{
 
 
 }
-@media (max-height: 667px) {
+@media (max-height: 667px)  {
 
     body{
         background-color: white;
@@ -489,11 +489,10 @@ footer{
         flex-direction: column;
         justify-content: center;
         height: 14cm;
-        width: 16cm;
+        width: 14cm;
         margin-left: 0;
 
-    }
-    
+    }gcpi9f
    .main-section1-div1-div3 a button{
     width: 6cm;
     margin-right: 0px;
@@ -582,6 +581,11 @@ footer{
     align-items: center;
     margin-top: 0.4cm;
 }
+.footer-section1-div1 p{
+    
+    
+    padding-right: 30px;
+}
 .footer-section1-div1 img{
     height: 70px;
     width: 70px;
@@ -615,4 +619,322 @@ footer{
     text-align: center;
 }
     
+}
+@media (max-width: 1180px ) and (min-width: 667px){
+ 
+    .header-section1{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        border: 1px solid rgba(87, 87, 87, 0.401);
+        box-shadow: 2px 2px 1px 1px gray;
+        background-color: white;
+        transform-style: preserve-3d;
+        box-shadow: 1px 1px 1px 1px white;
+    
+    }
+    .main-section-background{
+        display: none;
+    }
+    .header-section1-div{
+        margin-left: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header-section1-div img{
+        height: 50px;
+        border-radius: 5px;
+    }
+    .header-section1-div2{
+        margin-right: 10px;
+    }
+    .header-section1-div2 a{
+        text-decoration: none;
+    }
+    .header-section1-div2 a button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 1cm;
+        width: 6cm;
+        border-radius: 40px;
+        background-color: green;
+        color: white;
+    }
+    .header-section1-div2 a button img{
+        height: 20px;
+        margin-right: 2px;
+    }
+    .order-div{
+        display: flex;
+        margin: 0;
+        justify-content: left;
+        align-items: center;
+    
+    }
+    
+    
+    .main-section-background{
+        background-color: #2D2D2D;
+        width: 15.2cm;
+    }
+    .main-section1{
+        display: flex;
+        align-items: center;
+        height: 14.17cm;
+        width: 200%;
+        background-image: url(https://images.pexels.com/photos/4974914/pexels-photo-4974914.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+        background-repeat: no-repeat;
+        background-size: contain;
+        z-index: 1;
+    }
+    .main-section1-div1{
+        width: 12cm;
+        height: 12cm;
+        border: none;
+        border-radius: 0px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
+        background-color: white;
+        position: absolute;
+        z-index: 2;
+        margin-left: 4cm;
+       
+    
+    }
+    .main-section1-div1 div{
+        text-align: left;
+    }
+    .main-section1-div1 div p{
+        font-size: 20px;
+    
+    }
+    
+    
+    .main-section1-div1-div1{
+        display: flex;
+        flex-direction: column;
+    }
+    .main-section1-div1-div1 h1{
+        font-size: 30px;
+    }
+    .main-section1-div1-div1 h1 span{
+        color: green;
+    }
+    .main-section1-div1-div3{
+        display: flex;
+        align-items: center;
+    }
+    .main-section1-div1-div3 a{
+        text-align: left;
+    }
+    .main-section1-div1-div3 a button{
+        height: 1.5cm;
+        width: 10cm;
+        margin-top: 0.5cm;
+        margin-right: 75px;
+        background-color: black;
+        color: white;
+    }
+    
+    .main-section2{
+        height: 35cm;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: white;
+        flex-wrap: wrap;
+    }
+    .main-section2-div1 img{
+        height: 400px;
+        margin-top: -2cm;
+    }
+    .main-section2-div2{
+        width: 16cm;
+        margin-top: -5cm;
+    }
+    .main-section2-div2 h1{
+        color: green;
+        font-size: 35px;
+    }
+    .main-section2-div2 div p{
+        font-size: 18px;
+    }
+    .main-section2-div2 div a button{
+        height: 1.2cm;
+        width: 6cm;
+        background-color: black;
+        color: white;
+    }
+    .main-section3{
+        margin-top: -2cm;
+        height: 30cm;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        z-index: 1;
+        background-color: white;
+    }
+    
+    .main-section3-article1{
+        width: 16cm;
+    }
+    
+    .main-section3-article1-div1 h1{
+        font-size: 35px;
+    }
+    .li-1 h2{
+        display: flex;
+        align-items: center;
+    }
+    .li-1 h2 img{
+        height: 20px;
+        margin-right: 5px;
+    }
+    .li-1 p{
+        font-size: 20px;
+    }
+    .li-2 h2 img{
+        height: 20px;
+        margin-right: 5px;
+    }
+    .li-2 h2{
+        display: flex;
+        align-items: center;
+    }
+    .li-2 p{
+        font-size: 20px;
+    }
+    .li-3 h2 img{
+        height: 20px;
+        margin-right: 5px;
+    }
+    .li-3 h2{
+        display: flex;
+        align-items: center;
+    }
+    .li-3 p{
+        font-size: 20px;
+    }
+    .main-section3-article1-div3 a button{
+        height: 1.2cm;
+        width: 6cm;
+        color: white;
+        background-color: black;
+    }
+    .main-section4{
+        height: 20cm;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        background-color: white;
+        flex-wrap: wrap;
+    }
+    .main-section4-article1{
+        width: 16.4cm;
+     
+     }
+     .main-section4-article1-div1 h1{
+        font-size: 35px;
+     }
+     .main-section4-article1-div2 p{
+        font-size: 20px;
+     }
+    .main-section4-form1{
+        width: 16.4cm;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .main-section4-form1-div1{
+        display: flex;
+        flex-direction: row;
+    
+    }
+    .main-section4-form1-div1 div{
+        display: flex;
+        flex-direction: column;
+        margin-right: 10px;
+    }
+    .main-section4-form1-div1 div label span{
+        color: red;
+    }
+    .textboxs{
+        height: 1.2cm;
+        width: 6cm;
+        border-radius: 20px;
+        border: 1px solid green;
+        padding-left: 15px;
+    }
+    .BtnSumit button{
+        height: 1.2cm;
+        width: 8cm;
+        border-radius: 20px;
+        border: 1px solid green;
+        background-color: green;
+        color: white;
+    }
+    .main-section4-form1-div2 div label span{
+        color: red;
+    }
+    .main-section4-form1-div2{
+        display:flex ;
+        flex-direction: row;
+    }
+    .main-section4-form1-div2 div{
+        display: flex;
+        flex-direction: column;
+        margin-right: 10px;
+    }
+    
+    .BtnSumit{
+        margin-top: 20px;
+    }
+    footer{
+        height: 8cm;
+    }
+    .footer-section1{
+        height: 6cm;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #2D2D2D;
+        color: white;
+    }
+    .footer-section1-div1 img{
+        height: 80px;
+        border-radius: 10px;
+    }
+    .footer-section1-div2-div2 div{
+        align-items: center;
+    }
+    .footer-section1-div2-div2 div img{
+        height: 30px;
+    }
+    .footer-section1-div2-div2 div a{
+        text-decoration: none;
+        font-size: 15px;
+        color: white;
+    }
+    .footer-section2{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        background: #2D2D2D;
+        border-top: 2px solid white;
+        color: white;
+}
 }
