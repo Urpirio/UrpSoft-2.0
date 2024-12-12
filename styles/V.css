@@ -3,7 +3,7 @@ body{
     display: flex;
     justify-content:center;
     align-items: center;
-    background: linear-gradient(90deg,rgb(79, 220, 72),rgb(1, 180, 1),green);
+    background:white;
     font-family: "Poppins", sans-serif;
 }
 .body-div{
